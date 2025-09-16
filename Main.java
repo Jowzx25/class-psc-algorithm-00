@@ -1,0 +1,28 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    String salacorreta="A219",sala;
+	    Scanner s = new Scanner(System.in);
+	    
+	    System.out.println("Digite o numero de sua sala");
+	    sala=s.next();
+	    
+	    
+	   if(sala.equals(salacorreta)){
+	       System.out.println("Você esta no caminho certo");
+	       
+	   }
+	   else 
+	   { System.out.println("Você esta perdido,se encontre!");}
+		
+	   }
+}
